@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		49630BA124B20A3300FAC8B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49630BA024B20A3300FAC8B4 /* AppDelegate.swift */; };
-		49630BA324B20A3300FAC8B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49630BA224B20A3300FAC8B4 /* ContentView.swift */; };
 		49630BA524B20A3500FAC8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49630BA424B20A3500FAC8B4 /* Assets.xcassets */; };
 		49630BA824B20A3500FAC8B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49630BA724B20A3500FAC8B4 /* Preview Assets.xcassets */; };
 		49630BAB24B20A3500FAC8B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49630BA924B20A3500FAC8B4 /* Main.storyboard */; };
+		49630BB924B212A700FAC8B4 /* TimeCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49630BB824B212A700FAC8B4 /* TimeCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49630B9D24B20A3300FAC8B4 /* Doke Tool Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doke Tool Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49630BA024B20A3300FAC8B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49630BA224B20A3300FAC8B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49630BA424B20A3500FAC8B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49630BA724B20A3500FAC8B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49630BAA24B20A3500FAC8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49630BAC24B20A3500FAC8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49630BAD24B20A3500FAC8B4 /* Doke_Tool_Box.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Doke_Tool_Box.entitlements; sourceTree = "<group>"; };
+		49630BB824B212A700FAC8B4 /* TimeCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 		49630B9F24B20A3300FAC8B4 /* Doke Tool Box */ = {
 			isa = PBXGroup;
 			children = (
+				49630BB724B2128800FAC8B4 /* Tools */,
 				49630BA024B20A3300FAC8B4 /* AppDelegate.swift */,
-				49630BA224B20A3300FAC8B4 /* ContentView.swift */,
 				49630BA424B20A3500FAC8B4 /* Assets.xcassets */,
 				49630BA924B20A3500FAC8B4 /* Main.storyboard */,
 				49630BAC24B20A3500FAC8B4 /* Info.plist */,
@@ -72,6 +72,14 @@
 				49630BA724B20A3500FAC8B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49630BB724B2128800FAC8B4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				49630BB824B212A700FAC8B4 /* TimeCode.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49630BA324B20A3300FAC8B4 /* ContentView.swift in Sources */,
 				49630BA124B20A3300FAC8B4 /* AppDelegate.swift in Sources */,
+				49630BB924B212A700FAC8B4 /* TimeCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
