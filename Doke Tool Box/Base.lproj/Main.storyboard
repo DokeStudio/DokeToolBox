@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17156"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -682,14 +683,14 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <menu id="goA-5c-afT">
                     <items>
-                        <menuItem title="时间编码" id="glo-Ho-iXf">
+                        <menuItem title="Timestamp" id="glo-Ho-iXf">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="deliveryTimeCode:" target="Voe-Tx-rLC" id="NEY-f3-u60"/>
                             </connections>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" title="软件功能" id="OU0-3H-Dvd"/>
-                        <menuItem title="关闭" id="LWY-d4-BIw">
+                        <menuItem title="Close" id="LWY-d4-BIw">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <action selector="quitApp:" target="Voe-Tx-rLC" id="cLP-It-W0M"/>
