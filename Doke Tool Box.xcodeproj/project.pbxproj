@@ -24,6 +24,7 @@
 		49630BAC24B20A3500FAC8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49630BAD24B20A3500FAC8B4 /* Doke_Tool_Box.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Doke_Tool_Box.entitlements; sourceTree = "<group>"; };
 		49630BB824B212A700FAC8B4 /* TimeCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCode.swift; sourceTree = "<group>"; };
+		4964E95B252867B800FCA5CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		49630B9424B20A3300FAC8B4 = {
 			isa = PBXGroup;
 			children = (
+				4964E95B252867B800FCA5CD /* README.md */,
 				49630B9F24B20A3300FAC8B4 /* Doke Tool Box */,
 				49630B9E24B20A3300FAC8B4 /* Products */,
 			);
@@ -307,7 +309,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "Doke.Doke-Tool-Box";
+				PRODUCT_BUNDLE_IDENTIFIER = "Doke.Doke-Toolbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -330,7 +332,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "Doke.Doke-Tool-Box";
+				PRODUCT_BUNDLE_IDENTIFIER = "Doke.Doke-Toolbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
