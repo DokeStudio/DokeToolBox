@@ -307,7 +307,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "MiaoLiBin.Doke-Tool-Box";
+				PRODUCT_BUNDLE_IDENTIFIER = "Doke.Doke-Tool-Box";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -330,7 +330,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "MiaoLiBin.Doke-Tool-Box";
+				PRODUCT_BUNDLE_IDENTIFIER = "Doke.Doke-Tool-Box";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
