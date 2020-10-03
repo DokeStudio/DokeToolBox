@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Doke Tool Box
+//  Doke Tool Box 1.0
 //
 //  Created by 妙立斌 on 2020/7/5.
 //  Copyright © 2020 Pinton. All rights reserved.
