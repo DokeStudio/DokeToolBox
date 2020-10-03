@@ -1,4 +1,6 @@
 # Doke Toolbox 1.0
+![appicon](https://github.com/DokeStudio/DokeToolBox/raw/master/Doke%20Tool%20Box/Assets.xcassets/AppIcon.appiconset/doke-box-icon%40256w.png)
+
 When I work in design, I often have to deal with some boring and repetitive work. In order to focus on more meaningful design work, I developed this lightweight software for my own use. If you also need these features, please download the compiled tool in the Release on the right.
 
 ## Version 1.0 features
